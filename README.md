@@ -8,7 +8,6 @@ When a high-voltage insulator undergoes degradation due to tracking, it releases
 2. dry band formation: 100-130 degrees
 3. localised bright spot: 600-660 degrees
 4. track path: 1200-1500  degrees
-In the following part we will describe each of the approaches in detail.
 
 
 TEST SETUP
