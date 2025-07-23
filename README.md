@@ -19,11 +19,15 @@ A high-resolution FLIR thermal camera was used to conduct the thermal imaging an
 DATA AQUISITION AND DATASET 
 
 Dataset Size: 250 high-quality infrared thermogram images
+
 Image Distribution: 50 images per classification stage (4 stages total) and further augmented to get 250images per stage.
+
 Capture Technology: FLIR thermal camera system
+
 Data Formats:
 16-bit TIFF images for raw pixel data analysis
 32-bit floating TIFF images for lossless radiometric data
+
 Training Split: 80% training / 20% testing for optimal model performance
 
 IMAGE PREPROCESSING TECHNIQUE
