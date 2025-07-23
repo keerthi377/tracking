@@ -31,8 +31,11 @@ IMAGE PREPROCESSING TECHNIQUE
 The following 5 filters were used for image enhancement 
 
 Bilateral Filter - Noise reduction while preserving edges
+
 CLAHE (Contrast Limited Adaptive Histogram Equalization) - Enhanced contrast optimization
+
 Gamma Transformation - Brightness and contrast adjustment
+
 Thresholding - Binary image segmentation
 Canny Edge Detection - Precise boundary identification
 
@@ -41,17 +44,23 @@ Each filter was optimized for bright spot localization and underwent rigorous ac
 MACHINE LEARNING ARCHITECTURE
 
 UMAP (Uniform Manifold Approximation and Projection)
+
 Purpose: Dimensionality reduction and feature optimization
-Benefits:
-Prevents overfitting by reducing high-dimensional pixel data
+
+Benefits:Prevents overfitting by reducing high-dimensional pixel data
 Preserves topological structure in lower dimensions
 Eliminates noise while extracting critical features
+
 Methodology: Constructs nearest-neighbor graphs to maintain data relationships in reduced dimensions
 
 XGBoost (Extreme Gradient Boosting)
+
 Architecture: Ensemble of decision trees with sequential error correction
+
 Optimization: Utilizes first and second-order gradients for optimal leaf values and tree structure
+
 Performance: Gradient-based loss function minimizes prediction errors iteratively
+
 Advantage: Progressive model improvement through ensemble learning
 
 
